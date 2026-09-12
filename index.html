@@ -3,130 +3,422 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Uyiri Herbals - Pure, Natural & Healthy herbal products.">
-  <title>Uyiri Herbals | Pure • Natural • Healthy</title>
+
+  <meta name="description" content="Uyiri Herbals – Traditional herbal products inspired by nature.">
+
+  <title>UYIRI HERBALS | Pure • Natural • Traditional</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="header">
-    <div class="container nav">
-      <a class="brand" href="#home">
-        <img src="uyiri-logo.jpg" alt="Uyiri Herbals logo">
-        <span>UYIRI <small>HERBALS</small></span>
+
+<header class="header">
+  <div class="container nav">
+
+    <a class="brand" href="#home">
+      <img src="uyiri-logo.jpg" alt="UYIRI HERBALS Logo">
+      <div>
+        <strong>UYIRI</strong>
+        <small>HERBALS</small>
+      </div>
+    </a>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    <nav id="navLinks">
+      <a href="#home" onclick="closeMenu()">Home</a>
+      <a href="#about" onclick="closeMenu()">About</a>
+      <a href="#products" onclick="closeMenu()">Products</a>
+      <a href="#contact" onclick="closeMenu()">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<main>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+  <div class="container hero-grid">
+
+    <div class="hero-content">
+
+      <p class="eyebrow">🌿 PURE • NATURAL • TRADITIONAL</p>
+
+      <h1>
+        Nature's goodness,
+        <span>made with care.</span>
+      </h1>
+
+      <p class="hero-text">
+        Discover thoughtfully prepared herbal products inspired by
+        traditional knowledge and the richness of nature.
+      </p>
+
+      <div class="actions">
+
+        <a href="#products" class="btn primary">
+          Explore Products
+        </a>
+
+        <a href="#contact" class="btn secondary">
+          Contact Us
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="hero-image">
+
+      <div class="leaf-circle">
+        <img src="uyiri-logo.jpg" alt="UYIRI HERBALS">
+      </div>
+
+      <div class="hero-badge">
+        <span>🌿</span>
+        Natural Wellness
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="section">
+
+  <div class="container two-col">
+
+    <div>
+
+      <p class="eyebrow">ABOUT UYIRI HERBALS</p>
+
+      <h2>
+        Rooted in nature.
+        <span>Inspired by tradition.</span>
+      </h2>
+
+    </div>
+
+
+    <div class="text-block">
+
+      <p>
+        UYIRI HERBALS is focused on bringing traditional herbal
+        knowledge together with a modern approach to quality,
+        presentation and customer experience.
+      </p>
+
+      <p>
+        We aim to provide carefully prepared herbal products with
+        clear information and a simple way for customers to explore
+        and enquire about our products.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- WHY UYIRI -->
+
+<section class="section soft">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <p class="eyebrow">WHY UYIRI HERBALS</p>
+
+      <h2>Nature at the heart of everything.</h2>
+
+    </div>
+
+
+    <div class="cards">
+
+      <article class="card">
+
+        <div class="icon">🌿</div>
+
+        <h3>Herbal Tradition</h3>
+
+        <p>
+          Inspired by traditional herbal knowledge and
+          nature-based wellness practices.
+        </p>
+
+      </article>
+
+
+      <article class="card">
+
+        <div class="icon">🍃</div>
+
+        <h3>Nature Inspired</h3>
+
+        <p>
+          Products and presentation inspired by the
+          richness and simplicity of nature.
+        </p>
+
+      </article>
+
+
+      <article class="card">
+
+        <div class="icon">🤝</div>
+
+        <h3>Customer Care</h3>
+
+        <p>
+          Simple product information and direct support
+          for customer enquiries.
+        </p>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- PRODUCTS -->
+
+<section id="products" class="section">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <p class="eyebrow">UYIRI HERBALS</p>
+
+      <h2>Our Products</h2>
+
+      <p>
+        Explore our herbal and traditional wellness products.
+      </p>
+
+    </div>
+
+
+    <div class="products">
+
+
+      <article class="product-card">
+
+        <div class="product-image">
+          🌿
+        </div>
+
+        <div class="product-info">
+
+          <span class="product-tag">HERBAL</span>
+
+          <h3>Herbal Oils</h3>
+
+          <p>
+            Traditional herbal oils prepared with
+            carefully selected ingredients.
+          </p>
+
+          <a class="product-btn"
+             href="https://wa.me/919790597612?text=Hello%20UYIRI%20HERBALS,%20I%20would%20like%20to%20know%20about%20your%20Herbal%20Oils."
+             target="_blank">
+
+            Enquire on WhatsApp →
+
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <article class="product-card">
+
+        <div class="product-image">
+          🍃
+        </div>
+
+        <div class="product-info">
+
+          <span class="product-tag">NATURAL</span>
+
+          <h3>Herbal Powders</h3>
+
+          <p>
+            Nature-inspired herbal powder products
+            for traditional wellness routines.
+          </p>
+
+          <a class="product-btn"
+             href="https://wa.me/919790597612?text=Hello%20UYIRI%20HERBALS,%20I%20would%20like%20to%20know%20about%20your%20Herbal%20Powders."
+             target="_blank">
+
+            Enquire on WhatsApp →
+
+          </a>
+
+        </div>
+
+      </article>
+
+
+      <article class="product-card">
+
+        <div class="product-image">
+          🌱
+        </div>
+
+        <div class="product-info">
+
+          <span class="product-tag">WELLNESS</span>
+
+          <h3>Traditional Products</h3>
+
+          <p>
+            Carefully presented traditional products
+            inspired by herbal knowledge.
+          </p>
+
+          <a class="product-btn"
+             href="https://wa.me/919790597612?text=Hello%20UYIRI%20HERBALS,%20I%20would%20like%20to%20know%20about%20your%20Traditional%20Products."
+             target="_blank">
+
+            Enquire on WhatsApp →
+
+          </a>
+
+        </div>
+
+      </article>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="section contact-section">
+
+  <div class="container contact-grid">
+
+    <div>
+
+      <p class="eyebrow">GET IN TOUCH</p>
+
+      <h2>
+        Let's connect with
+        <span>UYIRI HERBALS.</span>
+      </h2>
+
+      <p>
+        Have a question about our products?
+        Contact us directly.
+      </p>
+
+    </div>
+
+
+    <div class="contact-card">
+
+      <div class="contact-item">
+
+        <strong>📱 WhatsApp</strong>
+
+        <span>+91 97905 97612</span>
+
+      </div>
+
+
+      <div class="contact-item">
+
+        <strong>📍 Location</strong>
+
+        <span>Coimbatore, Tamil Nadu, India</span>
+
+      </div>
+
+
+      <a
+        class="btn primary full"
+        href="https://wa.me/919790597612?text=Hello%20UYIRI%20HERBALS,%20I%20would%20like%20to%20make%20an%20enquiry."
+        target="_blank">
+
+        💬 Chat on WhatsApp
+
       </a>
-      <button class="menu-btn" aria-label="Open menu">☰</button>
-      <nav id="navLinks">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#products">Products</a>
-        <a href="#contact">Contact</a>
-      </nav>
+
     </div>
-  </header>
 
-  <main>
-    <section id="home" class="hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">PURE • NATURAL • HEALTHY</p>
-          <h1>Nature’s goodness,<br><span>made for you.</span></h1>
-          <p class="hero-text">
-            Discover carefully prepared herbal products inspired by traditional wellness
-            and the richness of nature.
-          </p>
-          <div class="actions">
-            <a class="btn primary" href="#products">Shop Products</a>
-            <a class="btn secondary" href="#contact">Contact Us</a>
-          </div>
-        </div>
-        <div class="hero-card">
-          <img src="uyiri-logo.jpg" alt="Uyiri Herbals">
-          <div class="badge">Natural Wellness</div>
-        </div>
-      </div>
-    </section>
+  </div>
 
-    <section id="about" class="section">
-      <div class="container two-col">
-        <div>
-          <p class="eyebrow">ABOUT UYIRI HERBALS</p>
-          <h2>Rooted in nature.<br>Created with care.</h2>
-        </div>
-        <div class="text-block">
-          <p>
-            Uyiri Herbals brings together herbal traditions and a modern approach to
-            product presentation and customer experience.
-          </p>
-          <p>
-            Our goal is simple: offer thoughtfully prepared herbal products with clear
-            information, convenient ordering and a nature-inspired experience.
-          </p>
-        </div>
-      </div>
-    </section>
+</section>
 
-    <section id="services" class="section soft">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">WHAT WE OFFER</p>
-          <h2>Our Services</h2>
-        </div>
-        <div class="cards">
-          <article class="card">
-            <div class="icon">🌿</div>
-            <h3>Herbal Products</h3>
-            <p>Nature-inspired herbal products presented with simple, useful product information.</p>
-          </article>
-          <article class="card">
-            <div class="icon">🛒</div>
-            <h3>Easy Ordering</h3>
-            <p>Browse products online and place your order through WhatsApp or your preferred contact method.</p>
-          </article>
-          <article class="card">
-            <div class="icon">📦</div>
-            <h3>Customer Support</h3>
-            <p>Get help with product details, availability and order-related questions.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+</main>
 
-    <section id="products" class="section">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">SHOP UYIRI</p>
-          <h2>Featured Products</h2>
-          <p>Add your real product images and prices in the JavaScript file later.</p>
-        </div>
-        <div id="productGrid" class="products"></div>
-      </div>
-    </section>
 
-    <section id="contact" class="section contact-section">
-      <div class="container contact-grid">
-        <div>
-          <p class="eyebrow">GET IN TOUCH</p>
-          <h2>We’d love to hear from you.</h2>
-          <p>For product enquiries and orders, contact Uyiri Herbals.</p>
-        </div>
-        <div class="contact-card">
-          <div><strong>WhatsApp</strong><span id="phoneDisplay">Add your number</span></div>
-          <div><strong>Email</strong><span>your@email.com</span></div>
-          <div><strong>Location</strong><span>Coimbatore, Tamil Nadu</span></div>
-          <a id="whatsappBtn" class="btn primary full" href="#" target="_blank">Order on WhatsApp</a>
-        </div>
-      </div>
-    </section>
-  </main>
+<!-- FOOTER -->
 
-  <footer>
-    <div class="container footer-inner">
-      <span>© <span id="year"></span> Uyiri Herbals</span>
-      <span>Pure • Natural • Healthy</span>
+<footer>
+
+  <div class="container footer-inner">
+
+    <div>
+
+      <strong>UYIRI HERBALS</strong>
+
+      <p>
+        Pure • Natural • Traditional
+      </p>
+
     </div>
-  </footer>
 
-  <script src="script.js"></script>
+    <div>
+      © <span id="year"></span> UYIRI HERBALS
+    </div>
+
+  </div>
+
+</footer>
+
+
+<script>
+
+function toggleMenu() {
+
+  document.getElementById("navLinks").classList.toggle("active");
+
+}
+
+function closeMenu() {
+
+  document.getElementById("navLinks").classList.remove("active");
+
+}
+
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+
+</script>
+
 </body>
-</html>
+        </html>
